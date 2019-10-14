@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LJColorUtil.h"
+#import "LJDataUtil.h"
 
 FOUNDATION_EXPORT double LJDataUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char LJDataUtilVersionString[];
