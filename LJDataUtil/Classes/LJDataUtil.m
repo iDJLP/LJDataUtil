@@ -11,7 +11,7 @@
 @implementation LJDataUtil
 
 + (CGFloat)fit:(CGFloat)f{
-    NSLog(@"nice");
+    NSLog(@"nice1");
     return f;
 }
 
