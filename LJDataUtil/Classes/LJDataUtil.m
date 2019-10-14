@@ -10,9 +10,8 @@
 
 @implementation LJDataUtil
 
-+ (CGFloat)fit:(CGFloat)f{
++ (void)fit:(CGFloat)f{
     NSLog(@"nice1");
-    return f;
 }
 
 @end
