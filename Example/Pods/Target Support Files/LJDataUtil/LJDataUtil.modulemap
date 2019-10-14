@@ -1,0 +1,6 @@
+framework module LJDataUtil {
+  umbrella header "LJDataUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1DC03B96C0A911999BA1F618 /* Pods_LJDataUtil_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DAA18573EA6734A6942D3E /* Pods_LJDataUtil_Example.framework */; };
+		28651872235423B800BF3432 /* LJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LJViewController.m */; };
+		2865187F2354242F00BF3432 /* LJColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865187D2354242F00BF3432 /* LJColorUtil.m */; };
+		286518802354242F00BF3432 /* LJColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865187D2354242F00BF3432 /* LJColorUtil.m */; };
+		286518812354242F00BF3432 /* LJDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865187E2354242F00BF3432 /* LJDataUtil.m */; };
+		286518822354242F00BF3432 /* LJDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865187E2354242F00BF3432 /* LJDataUtil.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3008D12DF96C10DFF79558BC /* LJDataUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LJDataUtil.podspec; path = ../LJDataUtil.podspec; sourceTree = "<group>"; };
+		2865187B2354242E00BF3432 /* LJColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJColorUtil.h; path = ../../LJDataUtil/Classes/LJColorUtil.h; sourceTree = "<group>"; };
+		2865187C2354242F00BF3432 /* LJDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJDataUtil.h; path = ../../LJDataUtil/Classes/LJDataUtil.h; sourceTree = "<group>"; };
+		2865187D2354242F00BF3432 /* LJColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJColorUtil.m; path = ../../LJDataUtil/Classes/LJColorUtil.m; sourceTree = "<group>"; };
+		2865187E2354242F00BF3432 /* LJDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJDataUtil.m; path = ../../LJDataUtil/Classes/LJDataUtil.m; sourceTree = "<group>"; };
+		3008D12DF96C10DFF79558BC /* LJDataUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJDataUtil.podspec; path = ../LJDataUtil.podspec; sourceTree = "<group>"; };
 		35EFBD1A4CACD05FEC7E6AB0 /* Pods-LJDataUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJDataUtil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LJDataUtil_Tests/Pods-LJDataUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		44DAA18573EA6734A6942D3E /* Pods_LJDataUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJDataUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6BB2A4BCD2C1538B6C3A39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B6BB2A4BCD2C1538B6C3A39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		524CEAC2A94398C576509903 /* Pods_LJDataUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJDataUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LJDataUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJDataUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +73,7 @@
 		62B1D0C67D727EB4FE5BB3C9 /* Pods-LJDataUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJDataUtil_Example.debug.xcconfig"; path = "Target Support Files/Pods-LJDataUtil_Example/Pods-LJDataUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6C3FA6683024F84846EF30E8 /* Pods-LJDataUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJDataUtil_Example.release.xcconfig"; path = "Target Support Files/Pods-LJDataUtil_Example/Pods-LJDataUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85735071DFE2C13E18911366 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85735071DFE2C13E18911366 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF463632BC38F9EAF0B33D46 /* Pods-LJDataUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJDataUtil_Tests.release.xcconfig"; path = "Target Support Files/Pods-LJDataUtil_Tests/Pods-LJDataUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +146,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LJViewController.h */,
 				6003F5A6195388D20070C39A /* LJViewController.m */,
+				2865187B2354242E00BF3432 /* LJColorUtil.h */,
+				2865187D2354242F00BF3432 /* LJColorUtil.m */,
+				2865187C2354242F00BF3432 /* LJDataUtil.h */,
+				2865187E2354242F00BF3432 /* LJDataUtil.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +206,6 @@
 				35EFBD1A4CACD05FEC7E6AB0 /* Pods-LJDataUtil_Tests.debug.xcconfig */,
 				EF463632BC38F9EAF0B33D46 /* Pods-LJDataUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -391,7 +404,9 @@
 			files = (
 				6003F59E195388D20070C39A /* LJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LJViewController.m in Sources */,
+				286518812354242F00BF3432 /* LJDataUtil.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2865187F2354242F00BF3432 /* LJColorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +415,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				286518822354242F00BF3432 /* LJDataUtil.m in Sources */,
+				28651872235423B800BF3432 /* LJViewController.m in Sources */,
+				286518802354242F00BF3432 /* LJColorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
